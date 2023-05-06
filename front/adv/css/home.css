@@ -1,0 +1,238 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    padding:0;
+    margin:0;
+   /* list-style:none;*/
+    border:0
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    max-width: 1920px;
+    width: auto;
+    height: 3.5vh;
+}
+
+main {
+    max-width: 1920px;
+    width: 100%;
+    background-image: url("/img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.title {
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 1.4% 0 0 20%;
+    font-size: 1.05rem;
+}
+
+.banner {
+    max-width: 1920px;
+    width: 100%;
+    height: 30vh;
+    background-image: url("../img/capa.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner h2 {
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 3% 0 0 20%;
+    margin: 0 20% 0 0;
+    font-size: 1.12rem;
+    text-align: end;
+}
+
+.banner p {
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 0.5% 0 0 20%;
+    margin: 0 20% 0 0;
+    font-size: 0.9rem;
+    text-align: end;
+}
+
+.about {
+    max-width: 1920px;
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.content {
+    width: 60vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.about h5 {
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top:4%;
+    font-size: 1.05rem;
+}
+
+.about p {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: auto;
+    margin-top: 2%;
+}
+
+.about-img1{
+    max-width: 19.7vw;
+    width: 100%;
+    height: auto;
+ /*   background-image: url("../img/img1.jpg");*/
+    
+}
+
+.about-img2{
+    max-width: 19.7vw;
+    height: auto;
+    width: 100%;
+    height: auto;
+  /*  background-image: url("../img/img2.jpg");*/
+    margin-left: 0.3vw;
+}
+
+.about-img3{
+    max-width: 19.7vw;
+    width: 100%;
+    height: auto;
+ /*   background-image: url("../img/img3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    margin-left: 0.3vw;
+}
+
+.about-p {
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 4%;
+    height: 2vh;
+    border-left: 1.5px solid black;
+
+}
+
+.about-p-msg {
+    width: 100%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 1%;
+    font-weight: 300;
+    margin-top: -2%;
+}
+
+.atuacao {
+    max-width: 1920px;
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+}
+
+.title-atuacao {
+    width: 20vw;
+    height: 25vh;
+    padding-top: 12%;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
